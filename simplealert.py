@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 from selenium.webdriver.common.by import By
-
+print("hellow world")
 driver=webdriver.Firefox()
 driver.get("http://testautomationpractice.blogspot.com/")
 driver.maximize_window()
